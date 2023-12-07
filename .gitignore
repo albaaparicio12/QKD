@@ -1,2 +1,8 @@
 db.sqlite3
 QKD/settings.py
+*.pyc
+*~
+myvenv
+/static
+.DS_Store
+*__pycache__
