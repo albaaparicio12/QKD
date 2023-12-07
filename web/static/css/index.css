@@ -160,7 +160,7 @@ nav>ul>li {
 .main_text {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 500px;
     margin: 30px;
     color: black;
 
