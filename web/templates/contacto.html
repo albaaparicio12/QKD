@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QKD</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Blochsphere.svg/1200px-Blochsphere.svg.png"
+                alt="QKD logo" />
+        </div>
+
+        <nav id="nav-bar">
+            <ul> <!--TODO: Añadir efectos bajar suave a los distintos puntos-->
+                <li><a class="nav-link" href="/">Documentación</a></li>
+                <li><a class="nav-link" href="#implementacion">Implementación</a></li>
+                <li><a class="nav-link" href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-links">
+                <a href="https://github.com/albaaparicio12" target="_blank" class="btn_contacto"><i
+                        class="fa-brands fa-github"></i>
+                    GitHub</a>
+                <a href="https://twitter.com/albaaparicio12" target="_blank" class="btn_contacto"><i
+                        class="fa-brands fa-x-twitter"></i> Twitter</a>
+                <a href="/cdn-cgi/l/email-protection#1a7f627b776a767f5a7f627b776a767f34797577"
+                    class="btn contact-details"><i class="fa-solid fa-envelope"></i> Send a mail</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Alba Aparicio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
